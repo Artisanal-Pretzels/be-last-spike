@@ -8,6 +8,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_USER: spikeuser
+      MYSQL_PASSWORD: spikepassword
+
     ports:
       - 127.0.0.1:3306:3306
 
