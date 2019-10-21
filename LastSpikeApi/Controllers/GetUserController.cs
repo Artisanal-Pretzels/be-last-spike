@@ -17,12 +17,10 @@ namespace LastSpikeApi.Controllers
     public class GetUserController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<User> Get()
+        public List<User> Get()
         {
-            using(var context = new LastSpikeContext())
-            {
-                return context.Users;
-            }
+            var context = new LastSpikeContext();
+            return context.Users.ToList();
         }
     }
 }
