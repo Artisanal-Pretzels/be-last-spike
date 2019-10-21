@@ -27,8 +27,8 @@ namespace LastSpikeApi
 
     public void ConfigureServices (IServiceCollection services)
     {
-      services.AddDbContext<UserContext> (options =>
-        options.UseMySql (Configuration.GetConnectionString ("DefaultConnection")));
+      // services.AddDbContext<UserContext> (options =>
+      //   options.UseMySql (Configuration.GetConnectionString ("DefaultConnection")));
       services.AddControllers ();
     }
 

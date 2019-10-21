@@ -1,15 +1,18 @@
 [
   {
+    "UserID": "1",
     "name": "example1",
     "latitude": "53.4854713",
     "longitude": "-2.2507676"
   },
   {
+    "UserID": "2",
     "name": "example2",
     "latitude": "53.4758512",
     "longitude": "-2.2485709"
   },
   {
+    "UserID": "3",
     "name": "example3",
     "latitude": "53.4882163",
     "longitude": "-2.2352457"

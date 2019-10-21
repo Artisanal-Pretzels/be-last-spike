@@ -11,21 +11,20 @@ namespace LastSpikeApi.Data
 {
     public class Seed
     {
-        public void Initialize (IServiceProvider serviceProvider)
+        public void Initialize ()
         {
-            using (var context = new UserContext (
-                serviceProvider.GetRequiredService<DbContextOptions<UserContext>> ()))
+            using (LastSpikeContext context = new LastSpikeContext ())
             {
-                context.Database.EnsureCreated ();
+                // context.Database.EnsureCreated ();
 
 
-                var users = LoadJson ();
+                // var users = LoadJson ();
 
-                foreach (var user in users)
-                {
-                    context.User.Add (user);
-                }
-                context.SaveChanges ();
+                // foreach (var user in users)
+                // {
+                //     context.Users.Add (user);
+                // }
+                // context.SaveChanges ();
 
             }
         }
