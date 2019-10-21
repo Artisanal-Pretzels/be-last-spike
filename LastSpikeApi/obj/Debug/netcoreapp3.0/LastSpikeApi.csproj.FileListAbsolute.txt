@@ -16,3 +16,16 @@
 /home/stef/nc/project/spiking/last-spike/LastSpikeApi/obj/Debug/netcoreapp3.0/LastSpikeApi.RazorTargetAssemblyInfo.cache
 /home/stef/nc/project/spiking/last-spike/LastSpikeApi/obj/Debug/netcoreapp3.0/LastSpikeApi.dll
 /home/stef/nc/project/spiking/last-spike/LastSpikeApi/obj/Debug/netcoreapp3.0/LastSpikeApi.pdb
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/data/data.json
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Castle.Core.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/MySqlConnector.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Pomelo.JsonObject.dll
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/runtimes/osx.10.10-x64/native/System.Security.Cryptography.Native.Apple.dylib
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/runtimes/osx.10.10-x64/native/System.Security.Cryptography.Native.OpenSsl.dylib
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/obj/Debug/netcoreapp3.0/LastSpikeApi.csproj.CopyComplete
+/home/stef/nc/project/spiking/last-spike/LastSpikeApi/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
