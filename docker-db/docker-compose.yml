@@ -4,7 +4,7 @@ services:
 
   db:
     image: mariadb
-    container_name: last_spike_db
+    container_name: last_spike
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
@@ -13,4 +13,3 @@ services:
 
     ports:
       - 127.0.0.1:3306:3306
-

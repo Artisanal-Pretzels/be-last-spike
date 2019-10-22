@@ -24,7 +24,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
+                "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
@@ -73,6 +81,63 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
+        "projectName": "LastSpikeGoogleApi",
+        "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
+        "packagesPath": "/home/sam/.nuget/packages/",
+        "outputPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "GoogleApi": {
+              "target": "Package",
+              "version": "[3.9.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
