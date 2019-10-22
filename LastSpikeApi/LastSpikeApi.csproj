@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LastSpikeGoogleApi\LastSpikeGoogleApi.csproj" />
+    <ProjectReference Include="..\FrontEndRequests\FrontEndRequests.csproj" />
   </ItemGroup>
 
   <ItemGroup>

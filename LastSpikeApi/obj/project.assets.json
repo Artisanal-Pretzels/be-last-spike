@@ -2219,6 +2219,16 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "FrontEndRequests/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FrontEndRequests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrontEndRequests.dll": {}
+        }
+      },
       "LastSpikeGoogleApi/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -7297,6 +7307,11 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "FrontEndRequests/1.0.0": {
+      "type": "project",
+      "path": "../FrontEndRequests/FrontEndRequests.csproj",
+      "msbuildProject": "../FrontEndRequests/FrontEndRequests.csproj"
+    },
     "LastSpikeGoogleApi/1.0.0": {
       "type": "project",
       "path": "../LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
@@ -7305,6 +7320,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "FrontEndRequests >= 1.0.0",
       "LastSpikeGoogleApi >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.0.0",
@@ -7337,6 +7353,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/FrontEndRequests.csproj": {
+              "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/FrontEndRequests.csproj"
+            },
             "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
               "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj"
             }
