@@ -4,12 +4,18 @@ services:
 
   db:
     image: mariadb
-    container_name: last_spike
+    container_name: last_spike_db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: last_spike
       MYSQL_USER: spikeuser
       MYSQL_PASSWORD: spikepassword
-
     ports:
       - 127.0.0.1:3306:3306
+    volumes:
+      - 'last_spike_db_data:/var/lib/mysql'
+
+volumes:
+  last_spike_db_data:
+    driver: local
