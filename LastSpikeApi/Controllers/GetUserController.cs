@@ -27,7 +27,7 @@ namespace LastSpikeApi.Controllers
             return context.Users.ToList();
         }
 
-        [Route("location")]
+        [Route("locations")]
         [HttpPost]
         public async Task<ActionResult<List<User>>> Post(UserLocation request)
         {
@@ -43,7 +43,7 @@ namespace LastSpikeApi.Controllers
             IEnumerable<User> returnVal = from u in context.Users
                             where u.Longitude < maxLong && u.Longitude > minLong
                             select u;
-
+                            
             return returnVal.ToList();
         }
     }

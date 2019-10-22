@@ -14,7 +14,7 @@ namespace LastSpikeApi.Data
         public DbSet<User> Users {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseMySql("server=127.0.0.1;database=last_spike;user=root;password=example");
+            => optionsBuilder.UseMySql("server=127.0.0.1;database=last_spike;user=spikeuser;password=spikepassword;");
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
             base.OnModelCreating (modelBuilder);

@@ -1,13 +1,17 @@
 version: '3.1'
 
 services:
+
   backend:
     image: last_spike
     container_name: last_spike_be
     ports:
-      - 1337:80
+      - 80:80
     depends_on:
       - db
+    networks:
+      - last_spike_network
+
   db:
     image: mariadb
     container_name: last_spike_db
@@ -18,10 +22,16 @@ services:
       MYSQL_USER: spikeuser
       MYSQL_PASSWORD: spikepassword
     ports:
-      - 127.0.0.1:3306:3306
+      - 3306:3306
     volumes:
       - 'last_spike_db_data:/var/lib/mysql'
+    networks:
+      - last_spike_network
 
 volumes:
   last_spike_db_data:
     driver: local
+
+networks:
+  last_spike_network:
+    driver: bridge
