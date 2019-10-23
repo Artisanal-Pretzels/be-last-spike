@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj": {}
+    "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj": {}
   },
   "projects": {
-    "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
+    "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
+        "projectUniqueName": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
         "projectName": "LastSpikeGoogleApi",
-        "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
-        "packagesPath": "/home/sam/.nuget/packages/",
-        "outputPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/obj/",
+        "projectPath": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj",
+        "packagesPath": "/home/stef/.nuget/packages/",
+        "outputPath": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sam/.nuget/NuGet/NuGet.Config"
+          "/home/stef/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,21 +57,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj": {
+    "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj",
+        "projectUniqueName": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj",
         "projectName": "LastSpikeGoogleApiTests",
-        "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj",
-        "packagesPath": "/home/sam/.nuget/packages/",
-        "outputPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApiTests/obj/",
+        "projectPath": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApiTests/LastSpikeGoogleApiTests.csproj",
+        "packagesPath": "/home/stef/.nuget/packages/",
+        "outputPath": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApiTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sam/.nuget/NuGet/NuGet.Config"
+          "/home/stef/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
-                "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj"
+              "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj": {
+                "projectPath": "/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/LastSpikeGoogleApi.csproj"
               }
             }
           }
@@ -129,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

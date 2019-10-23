@@ -1,20 +1,19 @@
-using System.Reflection.Emit;
-using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
-using LastSpikeApi.Models;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json;
 using System.Linq;
+using System.Reflection.Emit;
+using LastSpikeApi.Models;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace LastSpikeApi.Data
 {
     public class LastSpikeContext : DbContext
     {
-        public DbSet<User> Users {get; set;}
+        public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseMySql("server=127.0.0.1;database=last_spike;user=spikeuser;password=spikepassword;");
+        protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseMySql ("server=db;database=last_spike;user=spikeuser;password=spikepassword;");
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
             base.OnModelCreating (modelBuilder);
@@ -27,9 +26,9 @@ namespace LastSpikeApi.Data
                 entity.Property (e => e.Name);
             });
 
-            IEnumerable<User> users = LoadJson();
+            IEnumerable<User> users = LoadJson ();
 
-            modelBuilder.Entity<User>().HasData(users);
+            modelBuilder.Entity<User> ().HasData (users);
         }
 
         public IEnumerable<User> LoadJson ()

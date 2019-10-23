@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LastSpikeApi.Data;
 using LastSpikeApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,6 +22,7 @@ namespace LastSpikeApi
     public Startup (IConfiguration configuration)
     {
       Configuration = configuration;
+      ApplyMigrations ();
     }
 
     public IConfiguration Configuration { get; }
@@ -49,6 +51,15 @@ namespace LastSpikeApi
       {
         endpoints.MapControllers ();
       });
+    }
+
+    public void ApplyMigrations ()
+    {
+      var context = new LastSpikeContext ();
+      if (context.Database.GetPendingMigrations ().Any ())
+      {
+        context.Database.Migrate ();
+      }
     }
   }
 }

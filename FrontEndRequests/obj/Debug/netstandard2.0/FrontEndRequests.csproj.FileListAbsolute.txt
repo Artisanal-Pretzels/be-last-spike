@@ -1,8 +1,0 @@
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/bin/Debug/netstandard2.0/FrontEndRequests.deps.json
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/bin/Debug/netstandard2.0/FrontEndRequests.dll
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/bin/Debug/netstandard2.0/FrontEndRequests.pdb
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/Debug/netstandard2.0/FrontEndRequests.csprojAssemblyReference.cache
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/Debug/netstandard2.0/FrontEndRequests.AssemblyInfoInputs.cache
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/Debug/netstandard2.0/FrontEndRequests.AssemblyInfo.cs
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/Debug/netstandard2.0/FrontEndRequests.dll
-/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/Debug/netstandard2.0/FrontEndRequests.pdb

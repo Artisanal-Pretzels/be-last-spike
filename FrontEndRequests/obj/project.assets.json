@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "/home/sam/.nuget/packages/": {}
+    "/home/stef/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/FrontEndRequests.csproj",
+      "projectUniqueName": "/home/stef/nc/project/spiking/be-last-spike/FrontEndRequests/FrontEndRequests.csproj",
       "projectName": "FrontEndRequests",
-      "projectPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/FrontEndRequests.csproj",
-      "packagesPath": "/home/sam/.nuget/packages/",
-      "outputPath": "/home/sam/Desktop/Northcoders/Projects/be-last-spike/FrontEndRequests/obj/",
+      "projectPath": "/home/stef/nc/project/spiking/be-last-spike/FrontEndRequests/FrontEndRequests.csproj",
+      "packagesPath": "/home/stef/.nuget/packages/",
+      "outputPath": "/home/stef/nc/project/spiking/be-last-spike/FrontEndRequests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/sam/.nuget/NuGet/NuGet.Config"
+        "/home/stef/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -231,7 +231,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

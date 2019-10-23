@@ -17,7 +17,6 @@ namespace LastSpikeApi.Data
             {
                 // context.Database.EnsureCreated ();
 
-
                 // var users = LoadJson ();
 
                 // foreach (var user in users)

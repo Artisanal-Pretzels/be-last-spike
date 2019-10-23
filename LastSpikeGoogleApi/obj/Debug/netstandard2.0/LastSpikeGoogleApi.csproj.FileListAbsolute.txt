@@ -6,3 +6,11 @@
 /home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.AssemblyInfo.cs
 /home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.dll
 /home/sam/Desktop/Northcoders/Projects/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.pdb
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/bin/Debug/netstandard2.0/LastSpikeGoogleApi.deps.json
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/bin/Debug/netstandard2.0/LastSpikeGoogleApi.dll
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/bin/Debug/netstandard2.0/LastSpikeGoogleApi.pdb
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.csprojAssemblyReference.cache
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.AssemblyInfoInputs.cache
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.AssemblyInfo.cs
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.dll
+/home/stef/nc/project/spiking/be-last-spike/LastSpikeGoogleApi/obj/Debug/netstandard2.0/LastSpikeGoogleApi.pdb
