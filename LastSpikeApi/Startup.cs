@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using LastSpikeApi.Data;
 using LastSpikeApi.Models;
@@ -22,19 +23,25 @@ namespace LastSpikeApi
     public Startup (IConfiguration configuration)
     {
       Configuration = configuration;
-      ApplyMigrations ();
+
     }
 
     public IConfiguration Configuration { get; }
 
     public void ConfigureServices (IServiceCollection services)
     {
-      // services.AddDbContext<UserContext> (options =>
-      //   options.UseMySql (Configuration.GetConnectionString ("DefaultConnection")));
+
+#if DEBUG
+      services.AddDbContext<LastSpikeContext> (options =>
+        options.UseMySql (Configuration.GetConnectionString ("DevConnection")));
+#else
+      services.AddDbContext<LastSpikeContext> (options =>
+        options.UseMySql (Configuration.GetConnectionString ("DefaultConnection")));
+#endif
       services.AddControllers ();
     }
 
-    public void Configure (IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure (IApplicationBuilder app, IWebHostEnvironment env, LastSpikeContext context)
     {
       if (env.IsDevelopment ())
       {
@@ -51,15 +58,11 @@ namespace LastSpikeApi
       {
         endpoints.MapControllers ();
       });
+
+      DbInitialize load = new DbInitialize (context);
+
     }
 
-    public void ApplyMigrations ()
-    {
-      var context = new LastSpikeContext ();
-      if (context.Database.GetPendingMigrations ().Any ())
-      {
-        context.Database.Migrate ();
-      }
-    }
   }
+
 }

@@ -11,31 +11,31 @@ namespace LastSpikeApi.Data
 {
     public class Seed
     {
-        public void Initialize ()
-        {
-            using (LastSpikeContext context = new LastSpikeContext ())
-            {
-                // context.Database.EnsureCreated ();
+        // public void Initialize ()
+        // {
+        // using (LastSpikeContext context = new LastSpikeContext ())
+        // {
+        // context.Database.EnsureCreated ();
 
-                // var users = LoadJson ();
+        // var users = LoadJson ();
 
-                // foreach (var user in users)
-                // {
-                //     context.Users.Add (user);
-                // }
-                // context.SaveChanges ();
+        // foreach (var user in users)
+        // {
+        //     context.Users.Add (user);
+        // }
+        // context.SaveChanges ();
 
-            }
-        }
+        // }
+        // }
 
-        public List<User> LoadJson ()
-        {
-            using (StreamReader r = new StreamReader ("Data/data.json"))
-            {
-                string json = r.ReadToEnd ();
-                List<User> items = JsonConvert.DeserializeObject<List<User>> (json);
-                return items;
-            }
-        }
+        // public List<User> LoadJson ()
+        // {
+        //     using (StreamReader r = new StreamReader ("Data/data.json"))
+        //     {
+        //         string json = r.ReadToEnd ();
+        //         List<User> items = JsonConvert.DeserializeObject<List<User>> (json);
+        //         return items;
+        //     }
+        // }
     }
 }

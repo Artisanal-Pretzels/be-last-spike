@@ -16,8 +16,8 @@ namespace LastSpikeApi
         public static void Main (string[] args)
         {
 
-            Seed seedInstance = new Seed();
-            seedInstance.Initialize();
+            // Seed seedInstance = new Seed();
+            // seedInstance.Initialize();
 
             var host = CreateHostBuilder (args).Build ();
 

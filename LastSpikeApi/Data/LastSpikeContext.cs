@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection.Emit;
 using LastSpikeApi.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
@@ -13,7 +15,8 @@ namespace LastSpikeApi.Data
     {
         public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseMySql ("server=db;database=last_spike;user=spikeuser;password=spikepassword;");
+        public LastSpikeContext (DbContextOptions<LastSpikeContext> options) : base (options) { }
+        // protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseMySql ("server=db;database=last_spike;user=spikeuser;password=spikepassword;");
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
             base.OnModelCreating (modelBuilder);
